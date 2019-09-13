@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    color:white;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    
+}
+.js-clock{
+    position:absolute;
+    top:50px;
+    font-size:75px;
+    
+}
+.js-form{
+    
+    position:absolute;
+    top:250px;
+    font-size:30px;
+}
+.js-greetings{
+    
+    position:absolute;
+    top:250px;
+    font-size:30px;
+}
+.js-toDoform{
+    
+    position:absolute;
+    top:350px;
+}
+.js-toDoform>input{
+    border:none;
+    width:500px;
+    height:100px;
+    font-size:50px;
+    line-height:100px;
+    text-align:center;
+    border:10px solid white;;
+    border-radius:30px;
+    background-color:rgba(0,0,0,0);;
+}
+.js-toDoform>input::placeholder{
+    color:white;
+}
+
+
+.js-toDoList{
+    position:absolute;
+    top:530px;
+}
+
+
+
+.js-weather{
+    
+    position:absolute;
+    bottom:50px;
+}
+
+.js-toDoList{
+    width:600px;
+    height:300px;
+    background-color:rgba(0,0,0,0.5);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    border-radius:30px;
+}
+
+.js-toDoList>li{
+    height:30px;
+    width:500px;
+    border-bottom:5px solid white;
+    padding-right:10px;
+    padding-left:10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:15px;
+    font-weight:bold;
+
+}
+.js-toDoList button{
+    width:25px;
+    height:25px;
+    border:none;
+    border-radius:50%;
+    background-color:red;
+    font-size:10px;
+    font-weight:bold;
+    color:white;
+}
