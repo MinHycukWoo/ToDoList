@@ -20,13 +20,29 @@ body{
 .js-form{
     
     position:absolute;
-    top:250px;
+    top:270px;
     font-size:30px;
 }
+
+.showing>input{
+    border:none;
+    width:400px;
+    height:30px;
+    font-size:30px;
+    line-height:100px;
+    text-align:center;
+    border:5px solid white;;
+    border-radius:30px;
+    background-color:rgba(0,0,0,0);;
+}
+.showing>input::placeholder{
+    color:white;
+}
+
 .js-greetings{
     
     position:absolute;
-    top:250px;
+    top:270px;
     font-size:30px;
 }
 .js-toDoform{
